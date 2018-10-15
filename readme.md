@@ -13,11 +13,10 @@
 [![Hacktoberfest][hacktoberfest-badge]][hacktoberfest]
 [![First timers friendly][first-timers-badge]][first-timers]
 
-Whether your own or someone else’s writing, **alex** helps you find gender
-favouring, polarising, race related, religion inconsiderate, or other
-**unequal** phrasing in text.
+**Alex** helps you find gender favoring, polarizing, race-related, religion inconsiderate, or any other
+**unequal** phrasing in the text, whether it's your own or someone else’s writing.
 
-For example, when `We’ve confirmed his identity` is given to **alex**,
+For example, when you submit`We’ve confirmed his identity` to **alex**,
 it will warn you and suggest using `their` instead of `his`.
 
 > Suggestions, feature requests, and issues are more than welcome!
@@ -27,7 +26,7 @@ Give **alex** a spin on the [Online demo »][demo].
 ## Why
 
 *   [x] Helps to get better at considerate writing
-*   [x] Catches many possible offences
+*   [x] Catches possible offences
 *   [x] Suggests helpful alternatives
 *   [x] Reads plain-text, HTML, and markdown as input
 *   [x] Stylish
@@ -180,7 +179,7 @@ Yields:
 ### `alex.text(value)`
 
 Works just like [`alex()`][alex-api], but does not parse as markdown
-(thus things like code are not ignored)
+(thus code etc are not ignored)
 
 ###### Example
 
